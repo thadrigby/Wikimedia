@@ -1,25 +1,27 @@
-#container {
-	width: 80%;
-	height: 
-	margin: auto;
-};
-
-#intro {
-	text-align: center;
-};
-
-#intro p {
+body {
 	background-color: white;
-	text-align: center;
 	font-size: 13px;
-	font-family: sans-serif;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
-	line-height: 1.5;
-	margin: 0.3em 0;
-};
+	font-style: 1.5 sans-serif;
+	margin: 0.3em;
+}
 
-#welcome p {
+div#intro {
+	display: block;
+	position: static;
+	text-align: justify;
+	font-size: 150%;
+	vertical-align: top;
+	margin-left: 47.250;
+	margin-right: 47.250;
+	
+}
 
-};
+p#welcome {
+	text-align: right;
+	font-size: 150%;
+}
+
+#center {
+	width: auto;
+	height: auto;
+}
